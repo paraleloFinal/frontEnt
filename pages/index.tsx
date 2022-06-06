@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import MainMenuOne from './Components/MainMenuOne'
 import NavBarBottom from './Components/NavBarBottom'
-
+import ParaleloNavBar from './Components/ParaleloNavBar'
 
 const Home: NextPage = () => {
   
@@ -13,6 +13,7 @@ const Home: NextPage = () => {
         <title>Noticias Colombia - Paralelo</title>
       </Head>
       <div>
+        <ParaleloNavBar/>
         <NavBarBottom/>
         <MainMenuOne/>
         <i className='fas fa-home'/>
